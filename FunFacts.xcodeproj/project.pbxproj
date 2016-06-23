@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DA84CB1D1BC33D00C50157 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA84CA1D1BC33D00C50157 /* FactModel.swift */; };
+		04DA84CD1D1BDAD200C50157 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA84CC1D1BDAD200C50157 /* ColorModel.swift */; };
 		2D47BA4C1D196E29006AA311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D47BA4B1D196E29006AA311 /* AppDelegate.swift */; };
 		2D47BA4E1D196E29006AA311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D47BA4D1D196E29006AA311 /* ViewController.swift */; };
 		2D47BA511D196E29006AA311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D47BA4F1D196E29006AA311 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04DA84CA1D1BC33D00C50157 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		04DA84CC1D1BDAD200C50157 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		2D47BA481D196E29006AA311 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D47BA4B1D196E29006AA311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D47BA4D1D196E29006AA311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			children = (
 				2D47BA4B1D196E29006AA311 /* AppDelegate.swift */,
 				2D47BA4D1D196E29006AA311 /* ViewController.swift */,
+				04DA84CA1D1BC33D00C50157 /* FactModel.swift */,
 				2D47BA4F1D196E29006AA311 /* Main.storyboard */,
 				2D47BA521D196E29006AA311 /* Assets.xcassets */,
 				2D47BA541D196E29006AA311 /* LaunchScreen.storyboard */,
 				2D47BA571D196E29006AA311 /* Info.plist */,
+				04DA84CC1D1BDAD200C50157 /* ColorModel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DA84CB1D1BC33D00C50157 /* FactModel.swift in Sources */,
 				2D47BA4E1D196E29006AA311 /* ViewController.swift in Sources */,
 				2D47BA4C1D196E29006AA311 /* AppDelegate.swift in Sources */,
+				04DA84CD1D1BDAD200C50157 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				2D47BA5C1D196E29006AA311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
